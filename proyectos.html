@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de proyectos</title>
+</head>
+
+<header>
+    <h1>Explorador de proyectos</h1>
+</header>
+
+<body>
+    <nav>   
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="detalle.html">Detalles</a></li>
+            <li><a href="perfil.html">Perfiles</a></li>
+        </ul>
+
+    </nav>
+
+    <aside> 
+        <h3>Filtros: </h3>
+
+        <label for="categ" >Categoría: </label>
+            <select name="categ" id="categ">
+            <option value="uno">Categoría 1</option>
+            <option value="dos">Categoría 2</option>
+            <option value="tres">Categoría 3</option>
+        </select>
+
+        <br><br>
+
+        <label for="inputaño">Año: </label>
+        <input type="number" id="inputaño" name="año" min="2010" max="2026" pattern="[0-9]{4}"required>
+        <!-- pattern="[0-9]{4}"required // es obligatorio 4 dígitos del 0 al 9 -->
+        <br><br>
+
+        <label> Estado:</label>
+        <div>
+            <label for="completo"> Completo </label>
+            <input type="radio"  id="completo" name="completo">
+
+            <label for="enproceso">  En proceso </label>
+            <input type="radio"  id="enproceso" name="completo">
+            <br><br>
+        </div> 
+            <input type="submit" value="Filtrar">
+        </a>
+        
+    </aside>
+    <h2>Proyectos: </h2>
+    
+    <ul>
+        <li>
+            
+        </li>
+    </ul>
+
+    
+  
+
+
+</body>
+
+<footer>
+    
+</footer>
+</html>
+
