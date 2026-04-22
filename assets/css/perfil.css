@@ -1,0 +1,71 @@
+body{
+    font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background: linear-gradient(180deg, #010000, #1a1f5c  70%);
+    color: white;
+    line-height: 1.6;
+    margin: 30px;
+    }
+h1 {
+    text-align: center;
+}
+nav {
+    background-color:transparent;
+    padding: 40px;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: #0c22ed;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+nav a:active {
+    color: #0f12cb;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    border: none;
+}
+td, th {
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    color: transparent;
+    transition: color 0.3 ease;
+}
+tr:hover td {
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
