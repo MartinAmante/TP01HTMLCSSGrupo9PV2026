@@ -1,0 +1,83 @@
+
+
+body {
+  margin: 0;
+ font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  background:#f8f9fa;
+  color: #333;
+
+   display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+/* HEADER */
+.sup {
+  background: #082061;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* NAV */
+.paginas ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  background: #051645;;
+}
+
+.paginas ul li {
+  margin: 0 15px;
+}
+
+.paginas a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*seleccion subrayada*/
+.paginas a:hover {
+  text-decoration: underline;
+}
+
+
+/* MAIN */
+.m1 {
+  padding: 20px;
+}
+
+/* section1  */
+.estadisticas article {
+ background: #a6d5ac; /* Fondo blanco para las tarjetas */
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border-left: 5px solid #082061; /* Una franja azul lateral  */
+}
+
+/* section2 */
+.novedades li {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.pie {
+  background: #082061;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+
+/*se vuelve opaco cuando hago clik*/
+a:active {
+  opacity: 0.6;
+}
+/*recuadra cuando hago clik*/
+a:focus {
+  outline: 2px solid black;
+}
