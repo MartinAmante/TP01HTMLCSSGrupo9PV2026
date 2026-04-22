@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de Usuarios</title>
+    <link rel="stylesheet" href="assets/css/perfil.css">
 </head>
+
 <body>
     <header>
         <h1>Perfil de Usuarios</h1>
@@ -17,16 +19,15 @@
             <!-- y queda mejor dejarlo dado que todas las páginas tienen que tener las mismas navegaciones -->
         </nav>
     </header>
- <main>
+<main>
     <section>
         <h2>Listado de Usuarios</h2>
-        <table border="1">
-        <!-- Busque info sobre border, actualmente se hace por css pero por ahora -->
-        <!-- Nos va ayudar a visualizar mejor la página -->
+        <table>
             <tr>
-                <th>Imagen</th>
+                <th></th>
                 <th>Nombre</th>
                 <th>Rol</th>
+                <th>Observaciones</th>
             </tr>
             <tr>
                 <td>
@@ -34,6 +35,8 @@
                 </td>
                 <td>Gustavo Sosa</td>
                 <td>Profesor</td>
+                <th>...</th>
+                <!--Docente, excelentes explicaciones prácticas y visuales ideales para afirmar el conocimiento.-->
             </tr>
             <tr>
                 <td>
@@ -41,13 +44,15 @@
                 </td>
                 <td>Martin Amante</td>
                 <td>Alumno coordinador</td>
+                <th>...</th>
             </tr>
             <tr>
                 <td>
-                    <img src="assets/images/MatiasLlampa.jpg" alt="Foto de A. Matías S. Llampa - Alumno" width="100">
+                    <img src="assets/images/TomasGonzaloVilte.jpg" alt="Foto de Tomás Gonzalo Vilte - Alumno" width="100">
                 </td>
-                <td>Matías Llampa</td>
+                <td>Tomas Vilte</td>
                 <td>Alumno</td>
+                <th>...</th>
             </tr>
             <tr>
                 <td>
@@ -55,6 +60,7 @@
                 </td>
                 <td>Fernando Galian</td>
                 <td>Alumno</td>
+                <th>...</th>
             </tr>
             <tr>
                 <td>
@@ -62,20 +68,24 @@
                 </td>
                 <td>Mauricio Gutierrez</td>
                 <td>Alumno</td>
-            </tr><tr>
+                <th>...</th>
+            </tr>
+            <tr>
                 <td>
-                    <img src="assets/images/TomasGonzaloVilte.jpg" alt="Foto de Tomás Gonzalo Vilte - Alumno" width="100">
+                    <img src="assets/images/MatiasLlampa.jpg" alt="Foto de A. Matías S. Llampa - Alumno" width="100">
                 </td>
-                <td>Tomas Vilte</td>
+                <td>Matías Llampa</td>
                 <td>Alumno</td>
+                <th>...</th>
             </tr>
         </table>
     </section>
- </main>
+</main>
 
 
-</body>
+
 <footer>
     &copy; 2026 Plataforma de gestion de proyectos. Todos los derechos reservados.
 </footer>
+</body>
 </html>
