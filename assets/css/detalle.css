@@ -1,0 +1,166 @@
+body {
+    background-color: #f5f3ee;
+    margin: 0;
+}
+
+/*Comienzo del header*/
+.conteiner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.c-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.c-1 h1 {
+    font-size: 50px;
+    /*max-width: 500px;*/
+}
+
+.c-1 div {
+    display: flex;
+    gap: 15px; 
+    /*width: 500px;*/
+}
+
+.c-2 {
+    text-align: right; 
+}
+
+.nombre p {
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #CBBFBD;
+    white-space: nowrap;
+}
+/*Fin del header*/
+
+/*Menu de navegacion*/
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px;
+}
+/*Fin del nav*/
+/*Cambios al main*/
+.cuerpo {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 80px;
+}
+
+.contenido {
+    flex: 2;
+}
+
+.equipo {
+    flex: 1;
+}
+/*Fin del main*/
+/*Inicio Desarrolo del Proyecto*/
+.principal {
+    margin-bottom: 48px
+}
+
+.principal h1 {
+    font-family: sans-serif;
+    color: #333;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.principal p {
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/*Comienza enlace de Proyecto*/
+.enlaces ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.enlaces li {
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.enlaces h2 {
+    font-family: sans-serif;
+    color: #333;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.enlaces p {
+    font-size: 16px;
+}
+
+.enlaces a:hover {
+    /*color: #988D7B;*/
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+/*Fin Enlaces del Proyecto*/
+
+/*Comienzo del Aside*/
+.equipo div {
+    border: 1px solid #c0c0c0;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.equipo p {
+    text-align: center;
+}
+
+.e-p {
+    border-bottom: 1px solid #c0c0c0;
+    font-family: sans-serif;
+    color: #333;
+}
+/*Fin del Aside*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+    /*border-top: 1px solid #c0c0c0;*/
+}
