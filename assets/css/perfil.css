@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     background: linear-gradient(180deg, #010000, #1a1f5c  70%);
+    /*Use el linear gradient para hacer un degrade en el color del fondo*/
     color: white;
     line-height: 1.6;
     margin: 30px;
@@ -24,13 +25,15 @@ nav a:visited {
     color: #0c22ed;
     margin: 0 20px;
 }
-
+/*Le quite decoración a la barra navegadora porque queria que*/
+/*ese subrayado apareciera cuando pase el mouse por arriba*/
 nav a:hover {
     color: white;
     text-decoration: underline;
     text-underline-offset: 7px;
 }
-
+/*Me encantó aplicar el hover al nav, para que cuando pase el mouse por la barra navegadora*/
+/*Cambia de color a blanco*/
 nav a:active {
     color: #0f12cb;
 }
@@ -43,29 +46,45 @@ img {
 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+/*encontré el modo de darle forma circular a las fotos de perfil*/
+/*Mediante border radius 50%*/
 img:hover {
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
-
-
+/* Con hover descubrimiento asombroso, hice que la imagen se agrande un poco*/
+/*Cuando paso el mouse por encima*/
 table {
     border-collapse: separate;
     border-spacing: 0 15px;
     border: none;
+    /*Con estas lineas de comando pude ordenar mejor el texto alineado a cada perfil.*/
 }
-td, th {
+/* Con las declaraciones td th y tr pude organizar mejor los estilos, dado que estoy basado*/
+/*en una tabla...*/
+td {
     border: none;
     padding: 10px 30px;
     text-align: center;
     color: transparent;
     transition: color 0.3 ease;
 }
+
+th{
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    color: white;
+}
+
+
 tr:hover td {
     font-weight: bold;
     color: white;
 }
-
+/*Con las lineas color transparent y luego con hover font weight bold y el color white*/
+/*Pude hacer que sólo cuando pase el mouse por la foto, aparezcan el nombre, el rol */
+/*y observaciones para cada perfil.*/
 footer {
     text-align: center;
 }
