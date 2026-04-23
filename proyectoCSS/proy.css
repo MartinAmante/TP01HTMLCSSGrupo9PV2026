@@ -1,0 +1,70 @@
+body {
+    background-color:#0dd50a;
+}
+header {
+    background-color:#6c07d8;
+    color:#efec24;
+    text-align: center;
+    padding: 9%;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 33px;
+}
+nav ul.barnav {
+    background-color:#07839C;
+    padding: 15px 15px; /**/
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+}
+
+aside h3 {
+    background-color: #07839C;
+    color: #efec24;
+    text-align: center;
+    padding: 30px ;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 25px;
+     margin : 25px;
+}
+
+.fltrs {
+    background-color: rgba(125, 18, 187, 0.949);
+    padding: 32px 15px;
+    display: grid ;
+    color: #fffd8d;
+}
+
+#Lproyectos h2{
+    text-align: center;
+    background-color: #07839C;
+    padding: 25px 0px;
+    margin-top: 4%;
+}
+#Lproyectos section {
+    background-color: rgba(125, 18, 187, 0.949);
+    color: #fffd8d;
+    padding: 10px 20px ;
+    margin: 10px;
+    align-items: center;
+}
+
+section a:link {
+    color : #52ea64;
+}
+
+section a:visited {
+    color : #f98080;
+}
+section a:hover {
+    color : #defca6;
+}
+section a:active {
+    color : #0a7871;
+}
+
+footer {
+    background-color: #1e0226;
+    padding: 4% 0% 4% 2%;
+    margin: 10px;
+    color : #59ab32;
+}
