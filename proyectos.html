@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyectoCSS/proy.css" />
     <title>Explorador de proyectos</title>
 </head>
 
@@ -11,8 +12,8 @@
 </header>
 
 <body>
-    <nav>   
-        <ul>
+    <nav >   
+        <ul class="barnav">
             <li><a href="index.html">Home</a></li>
             <li><a href="detalle.html">Detalles</a></li>
             <li><a href="perfil.html">Perfiles</a></li>
@@ -20,8 +21,8 @@
 
     </nav>
 
-    <aside> 
-        <h3>Filtros: </h3>
+    <aside class="fltrs"> 
+        <h3>Filtros </h3>
 
         <label for="categ" >Categoría: </label>
             <select name="categ" id="categ">
@@ -34,6 +35,8 @@
 
         <label for="inputaño">Año: </label>
         <input type="number" id="inputaño" name="año" min="2010" max="2026" pattern="[0-9]{4}"required>
+        <!-- pattern="[0-9]{4}"required // es obligatorio 4 dígitos del 0 al 9 -->
+
         <br><br>
 
         <label> Estado:</label>
@@ -50,7 +53,7 @@
     </aside>
 
     <article id="Lproyectos">
-        <h2>Proyectos: </h2>
+        <h2>Proyectos </h2>
 
         <section>
             <h3>Curso en manipulacion de alimentos.</h3>
@@ -58,48 +61,48 @@
             <h5>Categoria: Dictado por una Comicion Estudiantil</h5>
             <p>Con la finalidad de ayudar a los jovenes emprededores de nuestra institución, se dictaran cursos en manipulacion de alimentos dirigidos por los especialistas Armando Esteban y Geronimo Sorbas.</p>
             <a href="https://www.facebook.com/share/p/14aVmziQUrt/">Ver detalle.</a>
-            </section>
-        <br>
+            <!--en "href" si pones # se vuelve un vinculo vacio-->
+        </section>
+        
          <section>
             <h3>Formacion integral del lider y estrategias de conduccion consciente.</h3>
             <img src="imagProy/liderazgo.jpeg" width="50%" >
             <h5>Categoria: Dictado por una Comicion Estudiantil</h5>
             <p>Para alumnos de la institucion que cursen el cuarto año de alguna carrera de grado. Sera dictadio el siguiente curso con la finalidad de brindarles herramientas y estrategias para que el cursante desarrolle un correcto rol como lider, independientemente de su entorno laboral.</p>
-            <a href="https://www.facebook.com/share/p/17bKtwNatM/">Ver detalle.</a>
+            <a class="Linkproy" href="https://www.facebook.com/share/p/17bKtwNatM/">Ver detalle.</a>
             </section>
-        <br>
+        
          <section>
             <h3>Diplomatura Universitaria en Inteligenci Artifical.</h3>
             <img src="imagProy/IAproy.jpeg" width="50%" >
             <h5>Categoria: Dictado por la facultad</h5>
             <p>Se dictara el siguiente curso con el obgetivo de brindarle al cursante la capasidad de integrar a la IA en entornos a nivel profecional.</p>
-            <a href="https://www.facebook.com/share/p/1DvSkWVMgt/">Ver detalle.</a>
+            <a class="Linkproy" href="https://www.facebook.com/share/p/1DvSkWVMgt/">Ver detalle.</a>
             </section>
-        <br>
+        
         <section>
             <h3>Taller de "Ingenieria Emocional"</h3>
             <img src="imagProy/saludM.jpeg"width="50%">
                     <h5>Categoria: Dictado por la facultad</h5>
-            <p>Se convoca a los alumnos de la institucion para formar parte de este espacio el cual tiene como finalidad indagar en las expectativas idealizadas sober la universidad y la posible frustracion que con lleva,la sensacion de desborde, la autoexigencia, la ansiedad, entre otras problematicas.</p>
-            <a href="https://www.facebook.com/share/p/17CgpC9noS/">Ver detalle.</a>
+            <p>Se convoca a los alumnos de la institucion para formar parte de este espacio el cual tiene como finalidad indagar en las expectativas idealizadas sober la universidad y la possible frustracion que con lleva,la sensacion de desborde, la autoexigencia, la ansiedad, entre otras problematicas.</p>
+            <a class="Linkproy" href="https://www.facebook.com/share/p/17CgpC9noS/">Ver detalle.</a>
         </section>
-        <br>
+        
         <section>
             <h3>
             CFMO Curso de posgrado
             </h3>
             <img src="imagProy/CFMO.jpg" width="50%">
-            <h5>Categoria: Dictado por la facultad</h5>
             <p>
                 Dictado en colaboracion con la Dra. Claire Brown y con la finalidad de comprender los fundamentos de la microscopia optica se dictara el siguinte curso en la Facultad de Ingenieria
             </p>
-            <a href="https://docs.google.com/forms/d/1fvXlqCHBWCTAmgbE2oQhkL1etWK-UL4S9eWUYLC2Cns/viewform?ts=69a05795&edit_requested=true&fbclid=IwY2xjawROBDJleHRuA2FlbQIxMABicmlkETFYQ3MyYWJvQ1VQVENCUXNoc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHr6bq6jNFCsfWNHEn9M0YSTjQF4TuRuyTTRTDAzhwWRHsarcReVAetQaTjIe_aem_B1ObKUTRV-QPNxnvlGeFcg">Ver detalles.</a>
+            <a class="Linkproy" href="https://docs.google.com/forms/d/1fvXlqCHBWCTAmgbE2oQhkL1etWK-UL4S9eWUYLC2Cns/viewform?ts=69a05795&edit_requested=true&fbclid=IwY2xjawROBDJleHRuA2FlbQIxMABicmlkETFYQ3MyYWJvQ1VQVENCUXNoc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHr6bq6jNFCsfWNHEn9M0YSTjQF4TuRuyTTRTDAzhwWRHsarcReVAetQaTjIe_aem_B1ObKUTRV-QPNxnvlGeFcg">Ver detalles.</a>
         </section>
-        <br>
+        
 
     </article>
 
-
+<script src="script.js"></script>
 </body>
 
 <footer>
